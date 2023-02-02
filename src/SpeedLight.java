@@ -9,6 +9,11 @@
 
 public class SpeedLight {
     public static void main(String[] args){
-        // edited
+        int SPEED_OF_SOUND = 340; //this is the value of sound in meter
+        int timeElapsed = 5;
+        int distance = SPEED_OF_SOUND * timeElapsed;
+        System.out.println("Speed of sound: " + SPEED_OF_SOUND);
+        System.out.println("Time Elapsed: " + timeElapsed);
+        System.out.println("Distance: " + distance);
     }
 }
