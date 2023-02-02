@@ -1,3 +1,10 @@
+/**
+ * @Class Name: Cycle
+ * @Author:Nazmun Nahar
+ * @Version:1.0
+ * @Date:2 February 2023
+ * Description:A program designed to calculate the number of Tricycles
+ */
 public class Cycle {
     public static void main(String[] args){
         int numberOfWheel = 47;
